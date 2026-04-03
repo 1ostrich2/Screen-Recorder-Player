@@ -25,6 +25,7 @@ It allows users to capture screen activity efficiently and save recordings for r
 - Ensure all dependencies are installed before running<br />
 
 <br />
+
 📚 What I Learned <br />
 - Working with multimedia and video processing in Python<br />
 - Automating desktop screen capture<br />
