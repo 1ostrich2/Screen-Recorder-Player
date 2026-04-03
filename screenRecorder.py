@@ -64,6 +64,3 @@ elif option == "2":
 else: print("Enter a valid option next time")    
 
 cv2.destroyAllWindows()
-
-
-#made by DogeCoderDoge
