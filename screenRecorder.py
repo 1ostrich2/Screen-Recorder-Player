@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from glob import glob
 
-option = input("#1 Record \n#2 Play \n")
+option = input("#1 Record \n#2 Play \n(just type the number, dont put #)\n")
 
 def record_video():
     file_name = str(input("Enter the file name you'd like to save with: "))
@@ -35,7 +35,7 @@ def play_video():
     for i, vid in enumerate(videos):
         print("#" + str(i+1), str(vid))
 
-    file = int(input("Choose the file to play: "))
+    file = int(input("Choose the file to play: \n (just type the number, dont put #)\n"))
     video = cv2.VideoCapture(videos[file-1])
 
     cv2.namedWindow(videos[file-1], cv2.WINDOW_NORMAL)
@@ -64,3 +64,4 @@ elif option == "2":
 else: print("Enter a valid option next time")    
 
 cv2.destroyAllWindows()
+
